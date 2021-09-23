@@ -1,0 +1,24 @@
+- redis-cli
+- SET name ansh
+- GET name
+
+- KEYS *
+
+- FLUSHALL
+
+- DEL name
+- expire name 10
+- setex name 10 ansh
+
+- lpush friends john
+- LRANGE friends 0 -1
+- rpush friends romy
+- lpop friends
+- SADD hobbies "weight lifting"
+
+- psql -U postgres
+- CREATE USER devsnest WITH PASSWORD 'password'
+- CREATE DATABASE devs 
+- GRANT ALL PRIVILAGES ON DATABASE devs to fundo_bache
+
+- // Ansh Sawant
